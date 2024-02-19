@@ -1,0 +1,144 @@
+:root {
+    --gris:#373a3c;
+    --casi-blanco:#dddddd;
+    --negro:#000;
+    --blanco:#fff;
+    --rojo:#dc3545;
+}
+
+html * {
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+}
+
+.lobster-regular {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.cabin-font {
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}  
+
+.cabin-700 {
+    font-weight: 700;
+}
+
+.bg-gris {
+    background-color: var(--gris);
+}
+
+.logo-size {
+    font-size: 2.5rem;
+}
+
+.white-text {
+    color: var(--blanco) !important ;
+}
+
+#head-section {
+    padding-top: 7rem;
+}
+
+#foto-pizza {
+    width: 40rem;
+    height: auto;
+}
+
+.font-size40 {
+    font-size: 40px;
+}
+
+.text-gray {
+    color: var(--gris);
+}
+
+.border-top {
+    border-top: solid var(--negro) !important;
+}
+
+.btn-light {
+    border-color: var(--gris) !important;
+    background-color: var(--blanco) !important;
+}
+
+.font-size20 {
+    font-size: 20px;
+}
+
+.font-size23 {
+    font-size: 23px;
+}
+
+.font-size16 {
+    font-size: 16px;
+}
+
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: var(--casi-blanco);
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+    border-radius: 50%;
+}
+
+.carousel-indicators [data-bs-target].active {
+    background-color:var(--negro);
+}
+
+.border-bot {
+    border-bottom: solid var(--negro);
+    padding-bottom: 10px;
+    width: fit-content;
+}
+
+.bg-red {
+    background-color: var(--rojo);
+}
+
+.btn-red {
+    border-color: var(--blanco) !important;
+    background-color: var(--rojo) !important;
+}
+
+.padding-red-section {
+    padding-top: 5%;
+    padding-bottom:5%;
+}
+
+footer {
+    background-color: var(--gris);
+}
+
+@media (max-width: 576px) {
+    .borde-pant-movil {
+        border-top: solid var(--negro) !important;
+    }
+}
+
+.cambio-rojo {
+    color:var(--rojo);
+}
+
+.custom-tooltip {
+    --bs-tooltip-bg: var(--gris) !important;
+    --bs-tooltip-color: var(--blanco) !important;
+}
